@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Clone</title>
+    <!--Fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <nav>
+
         <div class="nav-left">
             <img src="images/allen-rad-733kX9cX3JU-unsplash.jpg" alt="" class="logo">
             <ul>
-                <li><img src="images/notification.png" alt=""></li>
-                <li><img src="inbx.png" alt=""></li>
-                <li><img src="video.png" alt=""></li>
+                <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li><i class="fa fa-inbox" aria-hidden="true"></i></li>
+                <li><i class="fa fa-video-camera" aria-hidden="true"></i></li>
             </ul>
         </div>
         <div class="nav-right">
             <div class="search-box">
-                <img src="images/seach.png" alt="inser image here">
+                <i class="fa fa-search" aria-hidden="true"></i>
                 <input type="text" placeholder="search">
             </div>
             <div class="nav-user-icon online">
                 <img src="images/demo.jpg" alt="">
             </div>
+
         </div>
     </nav>
 
     <div class="container">
         <div class="left-sidebar">
             <div class="imp-links">
-                <a href="#"><img src="images/" alt="">Latest News</a>
+                <a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Latest News</a>
                 <a href="#"><img src="images/" alt="">Friends</a>
                 <a href="#"><img src="images/" alt="">Groups</a>
                 <a href="#"><img src="images/" alt="">Marketplace</a>
@@ -46,7 +51,196 @@
             </div>
         </div>
         <div class="main-content">
-            
+            <div class="story-gallery">
+                <div class="story story1">
+                    <i class="fa fa-plus"></i>
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/alex-knight-j4uuKnN43_M-unsplash.jpg" alt="">
+                    <p>Alex omwami</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
+                    <p>Michael Etyang</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/sebastian-romero-chA0aRhx2nw-unsplash.jpg" alt="">
+                    <p>Sebastian Njoroge</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/michiel-annaert-10R5AF_ab8A-unsplash.jpg" alt="">
+                    <p>Annaet Rasta</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/demo.jpg" alt="">
+                    <div>
+                        <p>Brenda Akoth</p>
+                        <small>Public<i class="fas fa-caret-down"></i></small>
+                        
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what's on your mind, brenda?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/artur-rutkowski-GdTLaWamFHw-unsplash.jpg" alt="">Fruits</a>
+                        <a href="#"><img src="images/michiel-annaert-10R5AF_ab8A-unsplash.jpg" alt="">Hiking</a>
+                        <a href="#"><img src="images/samsung-memory-Tnm-287tzHQ-unsplash.jpg" alt="">Demo</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/demo.jpg" alt="">
+                        <div>
+                            <p>Brenda Akoth</p>
+                            <span>August 13 2024, 15:42 pm</span>
+                        </div>
+                    </div>
+
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Follow my page for latest updates in <span>frontend development.</span> <a href="#">#brenda-akoth</a><a href="#">#LinkedIn</a></p>
+                <img src="images/fatane-rahimi--8kfrn_Tjps-unsplash.jpg" class="post-img" alt="">
+
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fas fa-like"></i>12</div>
+                        <div><i class="fas fa-comment"></i>16</div>
+                        <div><i class="fas fa-share"></i>10</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/demo.jpg" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/demo.jpg" alt="">
+                        <div>
+                            <p>James Omollo</p>
+                            <span>July 23 2024, 11:50 pm</span>
+                        </div>
+                    </div>
+
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Stay update on <span>frontend development.</span> <a href="#">#james-omollo</a><a href="#">#Twitter</a></p>
+                <img src="images/adam-wilson-mM7V59F5syw-unsplash.jpg" class="post-img" alt="">
+
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fas fa-like"></i>08</div>
+                        <div><i class="fas fa-comment"></i>46</div>
+                        <div><i class="fas fa-share"></i>20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/demo.jpg" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/demo.jpg" alt="">
+                        <div>
+                            <p>Machael Adam</p>
+                            <span>January 04 2024, 07:58 am</span>
+                        </div>
+                    </div>
+
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Follow my page for latest updates in <span>frontend development.</span> <a href="#">#michael-adam</a><a href="#">#LinkedIn</a></p>
+                <img src="images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" class="post-img" alt="">
+
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fas fa-like"></i>12</div>
+                        <div><i class="fas fa-comment"></i>16</div>
+                        <div><i class="fas fa-share"></i>10</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/demo.jpg" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/demo.jpg" alt="">
+                        <div>
+                            <p>Florence Ikapel</p>
+                            <span>October 08 2024, 03:20 am</span>
+                        </div>
+                    </div>
+
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Follow my page for <span>photography and videography.</span> <a href="#">#florence-ikapel</a><a href="#">#LinkedIn</a></p>
+                <img src="images/samsung-memory-rC8K8tzdjac-unsplash.jpg" class="post-img" alt="">
+
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fas fa-like"></i>12</div>
+                        <div><i class="fas fa-comment"></i>16</div>
+                        <div><i class="fas fa-share"></i>10</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/demo.jpg" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/demo.jpg" alt="">
+                        <div>
+                            <p>Felix Omwamba</p>
+                            <span>August 13 2024, 15:42 pm</span>
+                        </div>
+                    </div>
+
+                    <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">We offer <span>quality meals at a lower cost</span> <a href="#">#brenda-akoth</a><a href="#">#LinkedIn</a></p>
+                <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" class="post-img" alt="">
+
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><i class="fas fa-like"></i>12</div>
+                        <div><i class="fas fa-comment"></i>16</div>
+                        <div><i class="fas fa-share"></i>10</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/demo.jpg" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="right-sidebar">
             <div class="sidebar-title">
@@ -61,7 +255,7 @@
                 </div>
                 <div class="right-event">
                     <h4>Social Media</h4>
-                    <p>Greenpark</p>
+                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Greenpark</p>
                     <a href="#">More Info</a>
                 </div>
             </div>
@@ -73,10 +267,44 @@
                 </div>
                 <div class="right-event">
                     <h4>One Acre Fund</h4>
-                    <p>Serengeti Hotel</p>
-                    <a href="#">ore Info</a>
+                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Serengeti Hotel</p>
+                    <a href="#">More Info</a>
                 </div>
             </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/lightscape-0BhsN70JVA8-unsplash.jpg" alt="" class=" sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                </div>
+                <p>John Omondi</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                </div>
+                <p>Brenda Barasa</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/brooke-lark-HjWzkqW1dgI-unsplash.jpg" alt="">
+                </div>
+                <p>Ali Mohammed</p>
+            </div>
+
         </div>
     </div>
     
